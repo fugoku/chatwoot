@@ -28,7 +28,6 @@ master.key
 *.rdb
 
 # Ignore env files
-.env
 
 public/uploads
 public/packs*
@@ -62,7 +61,6 @@ test/cypress/videos/*
 /config/*.enc
 
 #ignore files under .vscode directory
-.vscode
 
 # yalc for local testing
 .yalc
@@ -76,3 +74,7 @@ yarn-debug.log*
 .yarn-integrity
 
 /storybook-static
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
